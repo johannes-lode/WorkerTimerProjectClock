@@ -1,3 +1,13 @@
+Wed Dec 25 17:39:13 CET 2019
+
+  - now converted to a starkit / starpack for single executable deployment
+  - one can provide a working directory on the command line, so data storage location is settable
+  - one can now start severeral instances at the same time, if they work on different working directories
+    (else data loss may occur)
+  - default project for startup is selectable
+  - some more reports from menu available
+  - data update to disk is performed on stopping all clocks
+
 Tue Sep  6 08:52:43 EST 2005
 
 projclock.tcl
