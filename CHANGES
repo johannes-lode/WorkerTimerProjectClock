@@ -1,0 +1,111 @@
+Tue Sep  6 08:52:43 EST 2005
+
+projclock.tcl
+	- changed name from Project Clock to WorkerTimer due to trademark issue
+
+Wed Mar 17 08:40:14 EST 2004
+
+projclock.tcl
+    - some tidying up of window behaviour
+	- fixed problem with custom summary when pclock dir has spaces in name
+
+Tue Mar  6 09:42:05 EST 2001
+
+my birthday!
+
+projclock.tcl
+	- added history list and state file; scope for other state changes
+		state file is separate from rc file
+	- considering next relase
+
+Fri Mar  2 14:50:37 EST 2001
+
+projclock.tcl
+	- added method for having different time database files
+
+summary.tcl
+	- simplified main loop
+	- allowed days in date range option
+	- allow reporting in fractional hours
+
+Mon Feb  5 11:04:15 EST 2001
+
+projclock.tcl
+	- added diary system
+	- changed GUI summary system not to use separate process
+
+Wed Jan 24 13:57:33 EST 2001
+
+projclock.tcl
+	- added View menus to view summaries created by pck-summary
+	- added summary viewer with save option
+	- added properties editor
+
+summary.tcl
+	- added date range capability
+
+Wed Jun  7 11:52:22 EST 2000
+
+Changed wrappers to allow call of devel copy.
+
+projclock.tcl 
+	- Changed save mode to drop entries with 0 time.
+
+Fri Mar 17 11:53:52 EST 2000
+
+RPM now available as well as tgz.
+
+projclock.tcl
+	- the end-of-day code was broken; it's fixed now
+
+
+Fri Feb 25 14:51:32 EST 2000
+
+IMPORTANT!!!!
+	The startup wrapper has been renamed from pclock to pck-timer!
+	The summariser is now started as pck-summary!
+IMPORTANT!!!!
+
+projclock.tcl
+	- having left a timer running overnight (again) I implemented an
+	  "end-of-day" watchdog, which gives you 5 minutes to continue or
+	  have the current timer stopped automatically.
+	- added hooks for a ~/.pclockrc file (config tools coming later)
+
+wrappers
+	- created one for summary, to avoid the missing included files
+	- changed the name from pclock to pck-timer, summary to pck-summary
+	- make install now installs these; make "oinstall" installs using the
+	  old names
+
+Thu Feb 24 09:12:58 EST 2000
+
+projclock.tcl
+	- changed timer cycle to use one "after", with a check for save cycles
+	- changed redraw strategy to try to eliminate crashes; it seems that
+	  hundreds of 'grid forget' calls causes an internal overflow
+
+summary.tcl
+	- made useful: run summary -h to see what you can do
+
+Wed Feb  2 10:05:49 EST 2000
+
+utilproc.tcl
+	- added numeric filter version of EntryBox
+	- added RCS log info
+	- PopupWindow convenience fcn.
+	- Info convenience fcn.
+
+projclock.tcl
+	- added RCS Log info
+	- tooltips
+	- hooks for property sheet
+	- hooks for configurable cycle timers
+	- timer increment now uses wallclock time and not a simple
+	  counter
+	- added (very short) about and help
+	- cumulative time now based on 8-hour (cycles(workday)) day
+	- small cleanup on how timers are started
+
+Makefile 
+	created!
