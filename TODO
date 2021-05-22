@@ -1,0 +1,36 @@
+Installation program.
+	(sort of done with RPM resp. starpack)
+
+More help.
+
+Toolbar with icons. (Sort of done)
+	stop timers (sugg. Pierre Abbat) (DONE)
+	save
+	stop/start help (also on view menu)
+	
+
+File format description.
+
+Report writers.
+
+Custom colours and timers.
+
+Textual project description accessible from menu/hotkey.
+
+Fix persistent record of deleted projects.
+(Probably just roll over timer and then delete buttons.)
+
+Default project. (sugg by Alan Jackson) (DONE)
+
+Edit utility for pclock file.
+
+More consistent use of date entry format throughout the UI.
+
+Configurable task bar headline: Leading task name or task time.
+
+Make reporting tools working again.
+
+Update tclkit base.
+Build scripts (instead of mk*.sh) and more platforms.
+
+Improve documentation / README for usage, translate German Readme to English.

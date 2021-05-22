@@ -1,0 +1,7 @@
+This is release 0.92 of WorkerTimer (formerly Project Clock), and is a maintenance release.
+
+Major organisational change is take over of maintenance from the original author David Keeffe to
+a new maintainer: Johannes Lode <linuxer@quantentunnel.de>.
+
+Major code change was to turn it into a starpack and providing a working directory on command line.
+

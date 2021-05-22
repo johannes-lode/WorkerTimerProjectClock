@@ -1,0 +1,41 @@
+
+Installing Project Clock
+------------------------
+
+YOU NEED TCL/TK to run Project Clock! I recommend at least version 8.2.
+
+You will need Extended Tcl's 'wishx' if you want SIGINT caught. 
+Otherwise you will have to change 'wishx' to 'wish' in the pck-timer shell script.
+Pclock will run without change in either case.
+
+Project Clock is made up of three Tcl scripts. The main stuff is
+'projclock.tcl' which sources 'utilproc.tcl' and 'tips.tcl' from the same directory.
+
+Linux/Unix users:
+-----------------
+
+To install in the standard places (/usr/local/....), just type 'make install'.
+
+To install elsewhere:
+
+	make PREFIX=<common-prefix> install
+
+where "common-prefix" is e.g. /usr/local, /opt ...
+
+	make PROGDIR=<run-dir> LIBDIR=<place for tcl files> DOCDIR=<place for docs> install
+
+If you don't have wishx, add WISH=wish to the above lines.
+
+The application name as used by window managers (for icons, etc)
+is 'pclock.tcl'.
+
+Win32 users:
+------------
+
+Unpack the gzip file using WinZip into any suitable folder.
+
+Since win32 doesn't do wrapper scripts very well, you'll have to rely on the file 
+association between .tcl and 'wish'.
+
+A double-click on (folder)\projclock.tcl should fire it up.
+You may have to make (folder) the current directory first.
