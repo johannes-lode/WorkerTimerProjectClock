@@ -2,9 +2,10 @@ Project Clock
 =============
 
 Changes:
-  2019-12-25 johannes-lode
-  packged as tclkit and maintainer transfer to johannes-lode
-  at github.com
+
+	2019-12-25 johannes-lode
+	packged as tclkit and maintainer transfer to johannes-lode
+	at github.com
 
 	Revision 1.7  2004/03/17 22:11:36  david
 	changed for 0.7
@@ -28,7 +29,7 @@ Changes:
 	Initial revision
 
 
-Version 0.7
+Version 0.92
 
 David Keeffe; david@systemsolve.net
 Johannes Lode; linuxer@quantentunnel.de
